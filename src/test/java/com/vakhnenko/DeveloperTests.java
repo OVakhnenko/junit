@@ -21,7 +21,7 @@ public class DeveloperTests {
     public void shouldCreateDeveloperInstanceTest(){
         assertEquals("Simple", developer.getFirsName());
         assertEquals("Developer", developer.getLastName());
-        assertEquals("Specialty", developer.getSpecialty());
+        assertEquals("Java", developer.getSpecialty());
         assertEquals(2000, developer.getSalary());
     }
 
